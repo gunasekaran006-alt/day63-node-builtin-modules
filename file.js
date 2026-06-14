@@ -1,7 +1,7 @@
 // fs - File System
 const fs = require("fs");
 
-// 3 parameters
+// 3 parameters:
 // FileName
 // File Content
 // Callback Function

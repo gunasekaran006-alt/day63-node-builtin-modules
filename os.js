@@ -16,4 +16,7 @@ console.log("Current Free Memory",(os.freemem() / (1024 ** 3)).toFixed(2)); //Cu
 console.log("Display Uptime", (os.uptime() / 3600).toFixed(2)); // Display Uptime 82.34
 
 // Network Informations
+// type 1 :
 console.log("Network Information", os.networkInterfaces()); // node os.js enter Terminal- full network details result visible
+//type 2 ( pro tip ) :
+console.log(JSON.stringify(os.networkInterfaces(),null,2));
